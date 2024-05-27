@@ -1,0 +1,86 @@
+Configuration	e_lab_4_all_wires
+STM32CubeMX 	6.11.0
+Date	05/24/2024
+MCU	STM32F030F4Px
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN0	ADC_IN0	PA0
+SPI1	Half-Duplex Master	SPI1_MOSI	PA7
+SPI1	Half-Duplex Master	SPI1_SCK	PA5
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	PWM Generation CH2	TIM1_CH2	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0-OSC_IN	GPIO_Input	ON
+6	PA0	ADC_IN0	
+7	PA1	GPIO_Input	BTN1
+8	PA2	GPIO_Input	BTN2
+9	PA3	GPIO_Output	RST
+10	PA4	GPIO_Output	LED
+11	PA5	SPI1_SCK	
+12	PA6	GPIO_Output	CS
+13	PA7	SPI1_MOSI	
+14	PB1	GPIO_Output	DC
+17	PA9	TIM1_CH2	AUDIO
+18	PA10	GPIO_Output	EN
+19	PA13	SYS_SWDIO	
+20	PA14	SYS_SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN0	ADC_IN0	PA0
+SPI1	Half-Duplex Master	SPI1_MOSI	PA7
+SPI1	Half-Duplex Master	SPI1_SCK	PA5
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	PWM Generation CH2	TIM1_CH2	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0-OSC_IN	GPIO_Input	ON
+6	PA0	ADC_IN0	
+7	PA1	GPIO_Input	BTN1
+8	PA2	GPIO_Input	BTN2
+9	PA3	GPIO_Output	RST
+10	PA4	GPIO_Output	LED
+11	PA5	SPI1_SCK	
+12	PA6	GPIO_Output	CS
+13	PA7	SPI1_MOSI	
+14	PB1	GPIO_Output	DC
+17	PA9	TIM1_CH2	AUDIO
+18	PA10	GPIO_Output	EN
+19	PA13	SYS_SWDIO	
+20	PA14	SYS_SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : e_lab_4_all_wires
+Project Folder : /home/hector/STM32CubeIDE/workspace_1.15.0/e_lab_4_all_wires
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F0 V1.11.4
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
